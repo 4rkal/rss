@@ -13,7 +13,7 @@ def main():
         rss_url = repo_link + "/releases.atom"
         rss_feed = feedparser.parse(rss_url)
 
-        print(rss_feed)
+        # print(rss_feed)
         if rss_feed.entries:
             latest_update = rss_feed.entries[0]
             print(f"Latest update for {repo_link}:")
