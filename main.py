@@ -7,6 +7,8 @@ github_repo_links = [
     "https://github.com/monero-project/monero-gui",
     "https://github.com/4rkal/MoneroOS",
     "https://github.com/SChernykh/p2pool",
+    "https://github.com/hinto-janai/gupax",
+    "https://github.com/hinto-janai/monero-vanity",
 ]
 
 now = datetime.utcnow()
